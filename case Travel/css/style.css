@@ -1,0 +1,57 @@
+/* All tag */
+* { font-family: Arial; font-size: 14px; margin: 0; padding: 0; border: none; }
+a { text-decoration: none; }
+ul { list-style: none; }
+
+/* header */
+header { position: relative; height: 80px; background: #000; }
+header:after { position: absolute; bottom: 0; left: 0; width: 100%; height: 7px; content: ''; background: #d6d6d6; }
+header > .container { position: relative; z-index: 1; width: 1200px; margin: 0 auto; }
+header > .container > a { display: block; float: left; margin: 5px 20px; } 
+header > .container > nav { float: right; }
+
+/* nav */
+nav > a { font-size: 24px; line-height: 73px; display: block; float: left; width: 110px; height: 73px; text-align: center; color: #fff; }
+nav > a:nth-child(1) { background: #433b90; }
+nav > a:nth-child(2) { background: #017fcb; }
+nav > a:nth-child(3) { background: #78b917; }
+nav > a:nth-child(4) { background: #feb800; }
+nav > a:nth-child(5) { background: #f27c01; }
+nav > a:nth-child(6) { background: #d40112; }
+nav > a:hover,
+nav > a.active { padding-bottom: 7px; }
+
+/* banner */
+#box {margin: 20px auto;width: 1300px;height: 400px;border:1px solid #eee;overflow: hidden; position: relative;}
+#list {width: 6500px;height: 400px;position: absolute;z-index: 1;}
+#list img {float: left;width: 1300px;height: 400px;}
+#buttons {position: absolute;height: 10px;width: 100px;z-index: 2; bottom: 20px; right: 250px;}
+#buttons span {cursor: pointer; float: left;border: 1px solid aqua;border-radius: 50%;height: 10px;width: 10px; margin-right: 5px;background: #e98352;}
+#buttons .on {background: #474550;}
+.arrow {cursor: pointer;line-height: 60px;text-align: center;font-size: 30px;width: 40px;height: 60px; position: absolute;z-index: 2;top: 120px;color: #fff;}
+#prev {left: 0;}
+#next {right: 0;}
+#prev:hover,
+#next:hover {background: #333;}
+    
+/* main */
+.main { position: relative; width: 1200px; height: 473px; margin: 34px auto 0; }
+.main h1 { font-size: 30px; font-weight: lighter; margin-bottom: 23px; }
+.main h1 > samp { font-size: 30px; color: #7c7c7c; }
+.main > aside { float: left; width: 450px; }
+.main > aside > dl { position: relative; display: block; height: 74px; margin-bottom: 17px; }
+.main > aside > dl > dt { position: absolute; top: -1px; left: 92px; font-size: 16px; font-weight: bold; line-height: 16px; text-decoration: underline; }
+.main > aside > dl > dd:first-of-type { position: absolute; left: 0; }
+.main > aside > dl > dd:last-of-type { position: absolute; top: 20px; left: 90px; }
+.main > article { float: right; width: 720px; overflow: hidden; }
+.main > article > p,
+.main > article > img { margin-bottom: 20px; }
+.main > article > img {overflow:hidden; width:800px;height: 200px; }
+/* footer */
+footer { position: relative; background: #000; }
+footer:before { position: absolute; z-index: -1; top: -6px; left: 0; width: 100%; height: 6px; content: ''; background: #d6d6d6; }
+footer > .container { width: 1200px; height: 64px; margin: 0 auto; }
+footer > .container > p { line-height: 64px; float: left; color: #fff; }
+footer > .container > span { float: right; margin: 14px 40px; }
+footer > .container > span > img { margin-left: 4px; opacity: .7; }
+footer > .container > span > img:hover { opacity: 1; cursor: pointer; }
